@@ -28,7 +28,7 @@ public class Backpack {
 
         int w = 11;                    //物品个数，背包容量
         int[] value = {0, 6, 3, 5, 4, 6};     //各个物品的价值
-        int[] weight = {0, 2, 2, 6, 5, 4};    //各个物品的重量
+        int[] weight = {0, 2, 2, 3, 5, 4};    //各个物品的重量
         System.out.println(getMaxValue(weight, value, w));
 
     }

@@ -18,8 +18,9 @@ public class Quick {
         int pivot = a[left];
         while (left < right) {
             //从后向前找到比基准小的元素
-            while (left < right && a[right] >= pivot)
+            while (left < right && a[right] >= pivot) {
                 right--;
+            }
             a[left] = a[right];
             //从前往后找到比基准大的元素
             while (left < right && a[left] <= pivot)
